@@ -1,0 +1,4 @@
+plugins:
+@docusaurus/plugin-pwa:instala a web en tu maquina*
+
+já implemenete o lunr-search que era o que uiri tinha dito, tambem encontrei estas alternativas 

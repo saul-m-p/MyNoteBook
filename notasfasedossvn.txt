@@ -1,0 +1,47 @@
+svnadmin create  C:\Users\p059696\Desktop\prova sites\svnDocusaurus
+
+svn checkout https://svn.ptin.corppt.com/repo/sec/branches/12.1-help/  C:\Users\p059696\Desktop\prova sites\svnDocusaurus
+
+cd svnDocusaurus
+
+svn add . 
+
+svn commit-m "update user/services em pt-pt"
+
+--------------------------------------------
+
+adicionar abc
+
+listagem não é = serviços
+
+ex usa
+
+tabela - en e es
+
+lunar barra de pesquica meterla a guncionar 
+
+borrar ficheiros 
+
+cambiar lo que me habia dicho iuri de call_log pasarlo a call_list que estaba mal
+
+ver la ruta real de es-co si va hacer es-co en todo, no hace sentido porque en 'en' no esta 'en-us' en la ruta de docs/user/en
+
+
+----------
+ej de las cosas que borre en los anteriores ficheros:
+
+@include <-=MNMU_PASEC+-+Cliente+-+Acessos+-+Adicionar+Acesso+Movel.md=
+
+@include <-=MNMU_PASEC+-+Cliente+-+Acessos+-+Adicionar+Acesso+Nomada.md=
+
+@include <-=MNMU_PASEC+-+Cliente+-+Acessos+-+Adicionar+Acesso+VPN+IP.md=
+
+@include <-=MNMU_PASEC+-+Cliente+-+Acessos+-+Adicionar+Business+Trunk+IP.md=
+
+
+
+tarea, primero cambiar nombres ficheiros y despues documentar, siguiente adicionar en cada ficheiros los metadados para darle posicion a ver si eso resuelve el problema 
+
+volver a abirri prueba blog y mynotebook
+
+ 
