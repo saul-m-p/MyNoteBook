@@ -1,0 +1,30 @@
+fiz ateraçoes no conteudo dos seguentes :
+- 'delivery_of_name_to_destination' tire os asteriscos do titulo, estava a mostrar os asteriscos no sidebar
+- 'override_making_anonymous_calls' não tinha titulo por isso optei por retirar os asteriscos e por um '#'
+- Em tudos foi adicionado um cabeçalho de metadados ex:
+	---
+	sidebar_position: 10
+	slug: /pt/services/call_me_override_making_anonymous_calls
+	displayed_sidebar: pt
+	---
+- A maioria dos ficheiros como titulo principal tinha ' ### ' em vez de um ' # ' tive que alterar para solo un carninal
+
+guion:
+porque se escolho docusaurus
+adaptação de ficheiros antigos ao nova ferramenta (docusaurus)
+	* modificação de nomes
+	* alteração no conteudo \\sidebar\\
+plantamento do header 
+
+
+
+REACT :
+- es una libreria para crear interfases de usuario utilizando javascript, desenvonvida por facebook
+- sigue el paradigma de programacion declarativo (?) 
+- su funcionamineto se bada en estados 
+- se puede usar en backend con node.js e apps con react native
+- se puede usar con otras herramientas como con typescript con el framework como next
+
+conceptos a buscar: 
+desplegar projectos
+desplegar projectos en produccion

@@ -1,0 +1,10 @@
+REACT :
+- es una libreria para crear interfases de usuario utilizando javascript, desenvonvida por facebook
+- sigue el paradigma de programacion declarativo (?) 
+- su funcionamineto se bada en estados 
+- se puede usar en backend con node.js e apps con react native
+- se puede usar con otras herramientas como con typescript con el framework como next
+
+conceptos a buscar: 
+desplegar projectos
+desplegar projectos en produccion
