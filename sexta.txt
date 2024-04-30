@@ -1,29 +1,7 @@
 bom dia tem estos ficheiros que estão em 'pt' mas não se encontram em 'en' e 'es-co'
 por ex: o numero total de ficheiros em 'en' é de 57, 'pt' 57 e 'es-co' é de 52 fatam ficheiros
 
-
-Contacts: Nesta página, é possível visualizar uma listagem das ajudas de todos os contatos.
-
-Home: Nesta página, é possível visualizar uma listagem das ajudas de todas as páginas principais.
-
-My Calls: Nesta página, é possível visualizar uma listagem das ajudas das minhas chamadas.
-
-Profiles: Nesta página, é possível visualizar uma listagem das ajudas dos meus perfis.
-
-Services: Nesta página, é possível visualizar uma listagem das ajudas de todos os serviços oferecidos.
-
 barra de pesquica esta a pesquisar em todos os lenguajens trocar isso para que só procure no lenguaje selecionado
-
-revisar si el archivo preservices en servicios es 'outros' o es 'quando me ligan' o cuando yo ligo 
-
-copia my calls categoryjson --> 
-{
-    "label": "Mis Llamadas",
-    "position": 3,
-    "collapsible": false,
-    "collapsed": false
-}
-
 definir a posição no sidebar 
 pensar já no header 
 paso de 'minhas chamadas' a 'chamadas'
@@ -37,3 +15,52 @@ lock_phone.md
 presentation_of_the_name_of_the_origin.md
 user_authentication_via_PIN.md
 hunt_group.md
+
+copia my calls categoryjson --> 
+{
+    "label": "Mis Llamadas",
+    "position": 3,
+    "collapsible": false,
+    "collapsed": false
+}
+
+
+
+
+
+
+
+
+
+-o meu projeto é o de ajuda contextualizada para o ABC
+tive a trabalhar na adatação dos users em todos os idiomas, já se encontra finalizada, 
+tambem fiz umas tabelas para a documentação para poder fazer a compração 
+
+ABC
+
+SITE
+ventajens de ter a ajuda contextualizada de esta meneira é a facilidade para navegar com o sidebar e 
+poder fazer pesquisas para facilitar a nossa busqueda de algum documento em especifico
+
+WIKI
+a tabela vai ser usada para que o backend consiga fazer a devida compração dos ficheiros 
+e assim possam fazer a migração já sabemdo qual é a estrutura do actual projeto de ajuda contextualizada
+
+commit com o svn 
+
+defilculdades com svn, e tive algums erros na documentação das urls
+
+proximos pasos: fazer o que foi feito com o user, mas com os outras pasta ej admin etc, fazer novamente as
+tabelas, o commit quando este pronto 
+
+
+falar com o miguel sobre español 
+
+
+
+
+
+
+
+
+svn: fazer o unversion (recursivo)
