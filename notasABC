@@ -37,3 +37,4 @@ fiz ateraçoes no conteudo dos seguentes :
 - A maioria dos ficheiros como titulo principal tinha ' ### ' em vez de um ' # ' tive que alterar para solo un carninal
 
 outra coisa tem fiheiros do help que não estou a encontrar no portal ABC 
+ejemplo de las alertas fue con :http://localhost:3000/online/help/user/en/services/presentation_of_the_name_of_the_origin y http://localhost:3000/online/help/user/en/services/SMS_sending_block
