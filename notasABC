@@ -13,9 +13,6 @@ mañana serria solo revisar acomadar y terminar la wiki despues escribierle a mi
 terminar de hacer la descripciones de lo categoryjson y pedir visto bueno
 hablar con miguel que en todos los services faltan ficheros por ej en 'en' hay 57; 'es-co' 52; 'pt' 57
 
-bom dia tem estos ficheiros que estão em 'pt' mas não se encontram em 'en' e 'es-co'
-por ex: o numero total de ficheiros em 'en' é de 57, 'pt' 57 e 'es-co' é de 52 fatam ficheiros
-
 barra de pesquica esta a pesquisar em todos os lenguajens trocar isso para que só procure no lenguaje selecionado
 
 revisar si el archivo preservices en servicios es 'outros' o es 'quando me ligan' o cuando yo ligo 
@@ -27,3 +24,16 @@ copia my calls categoryjson -->
     "collapsible": false,
     "collapsed": false
 }
+
+fiz ateraçoes no conteudo dos seguentes :
+- 'delivery_of_name_to_destination' tire os asteriscos do titulo, estava a mostrar os asteriscos no sidebar
+- 'override_making_anonymous_calls' não tinha titulo por isso optei por retirar os asteriscos e por um '#'
+- Em tudos foi adicionado um cabeçalho de metadados ex:
+	---
+	sidebar_position: 10
+	slug: /pt/services/call_me_override_making_anonymous_calls
+	displayed_sidebar: pt
+	---
+- A maioria dos ficheiros como titulo principal tinha ' ### ' em vez de um ' # ' tive que alterar para solo un carninal
+
+outra coisa tem fiheiros do help que não estou a encontrar no portal ABC 

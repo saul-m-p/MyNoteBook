@@ -1,12 +1,8 @@
-bom dia tem estos ficheiros que estão em 'pt' mas não se encontram em 'en' e 'es-co'
-por ex: o numero total de ficheiros em 'en' é de 57, 'pt' 57 e 'es-co' é de 52 fatam ficheiros
 
 barra de pesquica esta a pesquisar em todos os lenguajens trocar isso para que só procure no lenguaje selecionado
 definir a posição no sidebar 
 pensar já no header 
 paso de 'minhas chamadas' a 'chamadas'
-no ficheiro home tem o dobre ** em conctacts que fica no titulo perguntar ao miguel se posso fazer alteração de isso 
-
 
 ficheros que não estão
  
@@ -24,14 +20,14 @@ copia my calls categoryjson -->
     "collapsed": false
 }
 
+parece que encontre un error en el backend del site porque si desde user meto qualquier cosa en la url el igual carga en vez de mostrar un pagina de error o la ruta correpodiente
 
 
 
 
 
 
-
-
+GUION 2
 -o meu projeto é o de ajuda contextualizada para o ABC
 tive a trabalhar na adatação dos users em todos os idiomas, já se encontra finalizada, 
 tambem fiz umas tabelas para a documentação para poder fazer a compração 
@@ -54,8 +50,7 @@ proximos pasos: fazer o que foi feito com o user, mas com os outras pasta ej adm
 tabelas, o commit quando este pronto 
 
 
-falar com o miguel sobre español 
-
+GUION 3
 
 
 
