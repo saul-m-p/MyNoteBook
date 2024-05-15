@@ -1,0 +1,21 @@
+<div class="note">
+comparacion de el contenido de dos archivos md, necesito que me digas si el primero es igual que el segundo. pirmer archivo : segundo archivo: 
+
+como eutro ao switchboard ?
+uma pergunta, eu já terminei o swithboard e reparei que tem alterações em todas as pastas, covem que apatir de agora use o os ficheiros do trunk?
+
+RELATORIO: posso tirar meter alguma tabela para mostrar melhor as rutas que fiz 
+HACER: 1 corregir nombre de las tablas ,
+2  cambiar en pt y espa el call_log, 
+3 poner las notas en los div 
+4 adicionar a tabela ao ficheiros que iuri tinha feito
+
+$folder2 = "C:\Users\p059696\Desktop\prova sites\ABC\12.1-help\src\docusaurus\docs\user\es-co\services"
+$folder1 = "C:\Users\p059696\Desktop\prova sites\ABC\12.1-help\src\docusaurus\docs\user\en\services"
+
+$files1 = Get-ChildItem -Path $folder1 -File
+$files2 = Get-ChildItem -Path $folder2 -File
+
+$differences = Compare-Object -ReferenceObject $files1 -DifferenceObject $files2 -Property Name -PassThru
+
+$differences | Where-Object { $_.SideIndicator -eq '<=' } | Select-Object Name
